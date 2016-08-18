@@ -14,6 +14,9 @@
 		273DEFCA1D63F744007DA123 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273DEFC91D63F744007DA123 /* Assets.xcassets */; };
 		273DEFCD1D63F744007DA123 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 273DEFCB1D63F744007DA123 /* LaunchScreen.storyboard */; };
 		273DEFD81D63F744007DA123 /* NavigationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEFD71D63F744007DA123 /* NavigationDemoTests.m */; };
+		273DEFE81D63F75E007DA123 /* NavigationInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEFE31D63F75E007DA123 /* NavigationInteractiveTransition.m */; };
+		273DEFE91D63F75E007DA123 /* PopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEFE51D63F75E007DA123 /* PopAnimation.m */; };
+		273DEFEA1D63F75E007DA123 /* Nav.m in Sources */ = {isa = PBXBuildFile; fileRef = 273DEFE71D63F75E007DA123 /* Nav.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		273DEFD31D63F744007DA123 /* NavigationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		273DEFD71D63F744007DA123 /* NavigationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationDemoTests.m; sourceTree = "<group>"; };
 		273DEFD91D63F744007DA123 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		273DEFE21D63F75E007DA123 /* NavigationInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationInteractiveTransition.h; sourceTree = "<group>"; };
+		273DEFE31D63F75E007DA123 /* NavigationInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationInteractiveTransition.m; sourceTree = "<group>"; };
+		273DEFE41D63F75E007DA123 /* PopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopAnimation.h; sourceTree = "<group>"; };
+		273DEFE51D63F75E007DA123 /* PopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopAnimation.m; sourceTree = "<group>"; };
+		273DEFE61D63F75E007DA123 /* Nav.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Nav.h; sourceTree = "<group>"; };
+		273DEFE71D63F75E007DA123 /* Nav.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Nav.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				273DEFC11D63F743007DA123 /* AppDelegate.m */,
 				273DEFC31D63F744007DA123 /* ViewController.h */,
 				273DEFC41D63F744007DA123 /* ViewController.m */,
+				273DEFE21D63F75E007DA123 /* NavigationInteractiveTransition.h */,
+				273DEFE31D63F75E007DA123 /* NavigationInteractiveTransition.m */,
+				273DEFE41D63F75E007DA123 /* PopAnimation.h */,
+				273DEFE51D63F75E007DA123 /* PopAnimation.m */,
+				273DEFE61D63F75E007DA123 /* Nav.h */,
+				273DEFE71D63F75E007DA123 /* Nav.m */,
 				273DEFC61D63F744007DA123 /* Main.storyboard */,
 				273DEFC91D63F744007DA123 /* Assets.xcassets */,
 				273DEFCB1D63F744007DA123 /* LaunchScreen.storyboard */,
@@ -215,7 +230,10 @@
 			files = (
 				273DEFC51D63F744007DA123 /* ViewController.m in Sources */,
 				273DEFC21D63F743007DA123 /* AppDelegate.m in Sources */,
+				273DEFE91D63F75E007DA123 /* PopAnimation.m in Sources */,
+				273DEFEA1D63F75E007DA123 /* Nav.m in Sources */,
 				273DEFBF1D63F743007DA123 /* main.m in Sources */,
+				273DEFE81D63F75E007DA123 /* NavigationInteractiveTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
